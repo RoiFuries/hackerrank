@@ -1,19 +1,19 @@
 
 
-function getArea(length, width) {
-    let area  = length * width;  
-    return area;
-}
+    function getArea(length, width) {
+        let area  = length * width;  
+        return area;
+    }
 
-function getPerimeter(length, width) {
-    let perimeter =  length + length + width + width;
-    return perimeter;
-}
+    function getPerimeter(length, width) {
+        let perimeter =  length + length + width + width;
+        return perimeter;
+    }
 
 
 
-console.log(getArea(3, 4.5));
-console.log(getPerimeter(3, 4.5));
+    console.log(getArea(3, 4.5));
+    console.log(getPerimeter(3, 4.5));
 
 
 ///////////////////////////////////////////
@@ -42,16 +42,14 @@ console.log(getPerimeter(3, 4.5));
 //// no entendí esto de abajo ¿Por qué  sale 24?
 
 function factorial(n) {
-    if (n <= 1) {
+    if (n <= 1) { 
         return 1;
     }
-    
+    console.log(n);
     return n * factorial(n - 1);
-} 
-
-
-
+}
 
 console.log(factorial(4))
+
 
 
